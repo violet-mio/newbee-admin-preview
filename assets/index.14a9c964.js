@@ -1,0 +1,1 @@
+import{d as e,aH as r,o as a,a0 as o}from"./vendor.46c44667.js";const t=e({name:"Redirect",render:()=>r(),beforeRouteEnter(e,r,a){console.log("beforeRouteEnter");const{path:o,params:t,query:n}=r;a((e=>{e.$router.replace({path:o,params:t,query:n})}))}});t.render=function(e,r,t,n,s,u){return a(),o("div")};export{t as default};
